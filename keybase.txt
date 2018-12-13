@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/karlstolley
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://karlstolley.com
+  * I am karlstolley (https://keybase.io/karlstolley) on keybase.
+  * I have a public key with fingerprint B2FA 005E 1159 DFC8 750B  E005 A9BE DF11 854D 4903
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01011bd508cedf63e9e5b27267b7be3dbac9759323e885d729b8aaadc779549da6920a",
+            "fingerprint": "b2fa005e1159dfc8750be005a9bedf11854d4903",
+            "host": "keybase.io",
+            "key_id": "a9bedf11854d4903",
+            "kid": "01011bd508cedf63e9e5b27267b7be3dbac9759323e885d729b8aaadc779549da6920a",
+            "uid": "295f25c57cfcb5dcc3b141057682a119",
+            "username": "karlstolley"
+        },
+        "service": {
+            "hostname": "karlstolley.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1468530976,
+    "expire_in": 157680000,
+    "prev": "54847e3f2176cea15c9f64b2e3c8b76465ab5e5d4c102e463bfc9fc2945c0a33",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMIlAnicrVJrSBRRGN1NExU2JbZAA4uBymqzed15LEEEBcGCaRg9CLZ779xZB3dn
+tp1x1bISIQgsHxAllBUkPYwe2EMxCFelhKjQCkorQpatqEAqkCKoO1K/6mf3z+V+
+3znnO/fwjfiyPPnezJbJj2cqh7d5H6S6aj3bDnuX7GOQpTUwwX1MDZm9SFQjthOu
+MTQmyLAcy3FIA6yCiaZLAlEJQLzMSzKSERE0BLEqA1XgBaIoQJN5FSkQQg3LsgpE
+VYOSyrOQCTC6YUZIIp4wTIfKIl6HLAsIxwFV07EiAxYRWoAqomM4TgGiJqqsQInV
+lu0yqDkEbVJmWLRGH+FZe//A/2fftbNyvAp0HmAgYx0joGEsIE7kWCBLCg85TnWB
+NkmYMEZcrzARtR0rGqWB7g8wtJE0MHGzdT/zN6gMWzGqEE9YjoWtKG1WO07cDrpk
+pyHuousICv/WCSPD1GialJEkCduwTCbIUSR2DFeYEyUFCKwqSwGG1MeNBAkbLsL1
+ytLjziFJKglERZSJoPOcLGECOYBVXRIRTwSsIFkSJQARIEATMcfyRJQEpFME5lUR
+YBYKbtY22WNaTFCkNmGEStpGxIRObYIw+4cGd2V7vPmenLlz3C3z5OcV/tm9mYW5
+nu7SoxN1PXfW1F4qXbv4SEV98YlzO5svFv/IgAueVPn4h9CLC0Vv/KnA7aGDV962
+FE2O3h84H1uljOU0Pc2el7baXzYefy4Xfrs8+nj9VIkv5o8md13OdOmVm3uq3jj+
+gnTLo1evQ533sg7OLegpyC0v7IrbmYaTrXnLT03vfrK0fmvp1VtkpEAr2VAhXnN6
+l23sv9sbPjD98+dQE95R1Xl2UczXHvJde7cur6+iL70g0P+p9fP2Y5d6V2+qTLU2
+n97a3TjVFu/4QopTEzcfdsx0ta3ovDGdFn3n5eyBwfl+IbD34svG8dPfV2ZrZwoX
+h2BTzqHhnuXWs6/NY9frIu9zzV9btUUH
+=eV4z
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/karlstolley
+
+==================================================================

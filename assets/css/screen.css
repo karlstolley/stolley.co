@@ -1,0 +1,309 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+/* Begin site styles below */
+
+/*
+  Major Third Modular Scale (4:5, or 1.25)
+  https://www.modularscale.com/?20&px&1.25
+
+  Base Font Size: 18px (Alda; 17px Acumin)
+  Base Line-Height: 24px
+*/
+
+
+html {
+  background: #d3eae2;
+  color: #5a172f;
+  font-family: alda, serif;
+  font-size: 18px;
+  line-height: 24px;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+p {
+  padding-bottom: 12px;
+}
+ol,ul {
+  padding-bottom: 6px;
+}
+li {
+  padding-bottom: 6px;
+}
+
+a {
+  color: #683044;
+  -webkit-text-decoration-color: #896975;
+  text-decoration-color: #896975;
+}
+
+cite,em,i {
+  font-style: italic;
+}
+
+small {
+  display: block;
+}
+
+::-moz-selection,
+::selection {
+  background-color: #b8bab9;
+}
+
+/* Pad adjacent articles */
+article + article {
+  padding-top: 36px;
+}
+figure {
+  margin: 12px 0;
+}
+
+/* Responsive Media */
+audio,img,video {
+  display: block;
+  max-width: 100%;
+}
+
+/* Microformat-related Styles */
+.p-name::after {
+  content: ',';
+  font-weight: normal;
+}
+.p-honorific-suffix {
+  font-weight: normal;
+}
+.p-job-title {
+  text-transform: lowercase;
+}
+
+/* Content Styles */
+#content {
+  padding: 0 24px;
+}
+#content h2 {
+  color: #754656;
+  font-family: titling-gothic-fb-compressed, sans-serif;
+  font-size: 28.125px;
+  font-weight: 500;
+  letter-spacing: .05em;
+  line-height: 36px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+/* Header and Footer */
+#header,
+#footer {
+  font-family: acumin-pro-semi-condensed, sans-serif;
+  font-size: 17px;
+}
+
+#header {
+  color: #896975;
+  font-weight: 600;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 24px 60px 24px;
+}
+#header a {
+  color: inherit;
+  text-decoration: none;
+}
+#header small {
+  font-weight: 400; /* Acumin */
+}
+
+#footer {
+  /* 17px em */
+  color: #90757f;
+  font-weight: 400; /* Acumin */
+
+  padding: 48px 24px 12px 24px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 24px;
+}
+#footer h2 {
+  font-weight: 600;
+  padding-bottom: 12px;
+}
+#footer a {
+  color: inherit;
+  font-weight: 400;
+}
+
+#colophon {
+  /* Grid defined on #footer */
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+}
+#colophon p {
+  font-size: 13.6px; /* Based on 17-pixel em */
+  line-height: 18px;
+  padding-top: 4px; /* Eyeballed */
+}
+#navigation {
+  text-align: right;
+  /* Grid defined on #footer */
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+#navigation ul {
+  padding-bottom: 0;
+}
+#navigation li {
+  padding-bottom: 6px;
+}
+#navigation a {
+  display: block;
+  text-decoration: none;
+  font-weight: 400; /* Acumin */
+}
+
+/* Vita Styles */
+#vita h3 {
+  letter-spacing: .025em;
+  text-transform: lowercase;
+  font-variant-caps: small-caps;
+  -moz-font-feature-settings: "smcp";
+  -webkit-font-feature-settings: "smcp";
+  font-feature-settings: "smcp";
+  padding: 0 0 12px 0;
+}
+#vita h3 b {
+  color: #90757f;
+  margin-left: 12px;
+  display: inline-block;
+}
+#vita li {
+  text-indent: -12px;
+  padding-left: 12px;
+}
+#digital li,
+#honors li {
+  text-indent: 0;
+  padding-left: 0;
+}
+
+/* Preview/Thumbnail-Tile Styles */
+
+.previews {
+  background: #835f6b;
+  font-family: acumin-pro-condensed, sans-serif;
+  font-size: 17px; /* Optically closer cap & x-heights with 18px Alda */
+  font-weight: 600;
+
+  padding: 0 6px 12px 6px;
+  margin: 12px -12px 12px -12px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  align-content: stretch;
+}
+.previews li {
+  padding: 0 6px;
+  flex: 1 1 265px; /* TODO: Make this less brittle & tied to course-title length */
+}
+.previews a {
+  color: #d3eae2;
+  text-decoration: none;
+}
+.previews figure {
+  margin: 0;
+}
+.previews figcaption {
+  letter-spacing: normal;
+
+  padding: 6px 0 6px 0;
+}
+.previews figcaption small {
+  color: #c5d1cd;
+  font-family: acumin-pro-semi-condensed, sans-serif;
+  font-size: 13.6px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 18px;
+}
+.previews img {
+  box-sizing: border-box;
+}
+
+
+/* Media Queries */
+
+@media screen and (min-width: 435px) {
+  #book {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 24px;
+  }
+  #book h2 {
+    grid-column: 1 / 3;
+  }
+  #book {
+    grid-column: 1 / 1;
+    grid-row: 2 / 3;
+  }
+  #about figure {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0 0 0 24px;
+    float: right;
+  }
+}
+
+
+
+@media screen and (min-width: 700px) {
+  #header,
+  #content,
+  #footer {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  #header {
+    padding-top: 7.5vw;
+  }
+  #footer {
+    padding-bottom: 7.5vw;
+  }
+}
+
+/**
+* A quick baseline grid overlay using css+svg.
+* Inspired by [Basehold.it](https://basehold.it/).
+* @author leshido
+*/
+
+.t img { display: none; }
+body.t {
+    position: relative;
+}
+
+body.t::after {
+    /* Change the `height` parameter here to match your base line-height. */
+    background: url('data:image/svg+xml;utf8,<svg height="6" width="1" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="0.5" style="fill:rgba(0,0,0,0.3)" /></svg>') repeat top left;
+
+    content: "";
+    display: block;
+    pointer-events: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    position: absolute;
+}
+
+body.t:active::after {
+    display: none;
+}
