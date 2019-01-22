@@ -1,0 +1,17 @@
+html {
+  font-size: 12pt;
+  color: black;
+}
+* {
+  color: black;
+}
+#content h2 {
+  color: black;
+  background: none;
+}
+#vita h3 b {
+  color: #EEEEEE;
+}
+#footer {
+  display: none;
+}
