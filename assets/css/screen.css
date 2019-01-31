@@ -198,6 +198,12 @@ audio,img,video {
   text-indent: -0.6666666667em; /* 12 / 18 = 0.6666666667 */
   padding-left: 0.6666666667em; /* 12 / 18 = 0.6666666667 */
 }
+
+/* Specfic Vita Section Tweaks */
+#talks h2 + ul,
+#media h2 + ul {
+  padding-top: 0.6666666667em; /* 12 / 18 = 0.6666666667 */
+}
 #digital li,
 #honors li {
   text-indent: 0;
