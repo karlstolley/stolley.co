@@ -183,11 +183,26 @@ audio,img,video {
 #vita h3 {
   letter-spacing: .025em;
   text-transform: lowercase;
+  font-variant-caps: small-caps;
+  -moz-font-feature-settings: "smcp";
+  -webkit-font-feature-settings: "smcp";
+  font-feature-settings: "smcp";
+  padding: 0.3333333333em 0 0.3333333333em 0; /* 6 / 18 = 0.3333333333 */
+}
+/*
+  This is ugly and hacky; Safari on MacOS & iOS is shrinking "c2sc" text
+  when it contains commas or colons. I should file a bug report, but for
+  now, I'll set c2sc on just the ampersand (which is the offending
+  character on small-caps text, poking way up above the small-cap height)
+  but eventually, this additional selector should be removed and the
+  c2sc feature set on #vita h3 above.
+*/
+#vita h3 .and {
+  font-style: normal;
   font-variant-caps: all-small-caps;
   -moz-font-feature-settings: "c2sc", "smcp";
   -webkit-font-feature-settings: "c2sc", "smcp";
   font-feature-settings: "c2sc", "smcp";
-  padding: 0.3333333333em 0 0.3333333333em 0; /* 6 / 18 = 0.3333333333 */
 }
 #vita h3 b {
   color: #90757f;
