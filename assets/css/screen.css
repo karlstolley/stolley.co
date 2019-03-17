@@ -241,10 +241,9 @@ audio,img,video {
   margin: 0.7058823529em -0.7058823529em; /* 12 / 17 = 0.7058823529 */
   display: flex;
   flex-flow: row wrap;
-  align-items: baseline;
-  align-content: stretch;
 }
 .previews li {
+  display: flex;
   padding: 0 0.3529411765em; /* 6 / 17 = 0.3529411765 */
   flex: 1 1 265px; /* TODO: Make this less brittle & tied to course-title length */
 }
@@ -253,6 +252,10 @@ audio,img,video {
   text-decoration: none;
 }
 .previews figure {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between; /* Push figure content all the way to the bottom */
+  height: 100%; /* Make the flex column the full height of the parent flex container */
   margin: 0;
 }
 .previews figcaption {
