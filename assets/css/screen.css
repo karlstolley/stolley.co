@@ -245,7 +245,7 @@ audio,img,video {
 .previews li {
   display: flex;
   padding: 0 0.3529411765em; /* 6 / 17 = 0.3529411765 */
-  flex: 1 1 265px; /* TODO: Make this less brittle & tied to course-title length */
+  flex: 1 1 200px;
 }
 .previews a {
   color: #d3eae2;
@@ -269,7 +269,7 @@ audio,img,video {
   font-size: 0.8em; /* 13.6 / 17 = 0.8 */
   font-weight: 400;
   letter-spacing: normal;
-  line-height: 1.3235294118em; /* 18 / 13.6 = 1.3235294118 */
+  line-height: 1.7647058824em; /* 24 / 13.6 = 1.7647058824 */
 }
 .previews img {
   box-sizing: border-box;
