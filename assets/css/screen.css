@@ -283,7 +283,8 @@ audio,img,video {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto auto;
-    grid-column-gap: 24px;
+    grid-column-gap: 1em;
+    column-gap: 1em;
   }
   #book h2 {
     grid-column: 1 / 3;
