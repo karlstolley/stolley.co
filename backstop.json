@@ -32,19 +32,24 @@
   "scenarios": [
     {
       "label": "Stolley.co Home",
-      "url": "http://localhost:8080/"
+      "url": "http://localhost:8080/",
+      "delay": 500
     },
     {
       "label": "Stolley.co About",
-      "url": "http://localhost:8080/about/"
+      "url": "http://localhost:8080/about/",
+      "delay": 500
+
     },
     {
       "label": "Stolley.co CV",
-      "url": "http://localhost:8080/cv/"
+      "url": "http://localhost:8080/cv/",
+      "delay": 500
     },
     {
       "label": "Stolley.co Courses",
-      "url": "http://localhost:8080/_courses/"
+      "url": "http://localhost:8080/_courses/",
+      "delay": 500
     }
   ],
   "paths": {
