@@ -1,38 +1,50 @@
 {
-  "id": "backstop_default",
+  "id": "v1.0.0",
   "viewports": [
     {
-      "label": "phone",
+      "label": "x-small",
       "width": 320,
       "height": 480
     },
     {
-      "label": "tablet",
-      "width": 1024,
-      "height": 768
+      "label": "small",
+      "width": 435,
+      "height": 800
+    },
+    {
+      "label": "medium",
+      "width": 700,
+      "height": 900
+    },
+    {
+      "label": "large",
+      "width": 1010,
+      "height": 1000
+    },
+    {
+      "label": "larger",
+      "width": 1510,
+      "height": 1100
     }
   ],
   "onBeforeScript": "puppet/onBefore.js",
   "onReadyScript": "puppet/onReady.js",
   "scenarios": [
     {
-      "label": "BackstopJS Homepage",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://garris.github.io/BackstopJS/",
-      "referenceUrl": "",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
+      "label": "Stolley.co Home",
+      "url": "http://localhost:8080/"
+    },
+    {
+      "label": "Stolley.co About",
+      "url": "http://localhost:8080/about/"
+    },
+    {
+      "label": "Stolley.co CV",
+      "url": "http://localhost:8080/cv/"
+    },
+    {
+      "label": "Stolley.co Courses",
+      "url": "http://localhost:8080/_courses/"
     }
   ],
   "paths": {
