@@ -294,6 +294,12 @@ audio,img,video {
     float: right;
     shape-outside: polygon(-3px 68px, 30.62% 2.6%, 97.44% 2.02%, 98.9% 55.43%, 80.63% 96.22%, 66.9% 88.67%, 65.23% 80.14%, 13.87% 48.25%, 8.34% 51.18%, 5px 45.47%, 3.52% 40.5%);
   }
+  @supports (shape-outside: polygon(0px 0px, 0% 0%)) {
+    #about p {
+      hyphens: auto;
+      text-align: justify;
+    }
+  }
 }
 
 
@@ -332,6 +338,9 @@ audio,img,video {
     width: auto;
     padding: 0;
     float: none;
+  }
+  #about p {
+    text-align: left;
   }
 }
 @media screen and (min-width: 1510px) {
