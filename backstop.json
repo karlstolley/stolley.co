@@ -1,5 +1,5 @@
 {
-  "id": "v1.0.0",
+  "id": "v1.0.1",
   "viewports": [
     {
       "label": "x-small",
@@ -18,7 +18,7 @@
     },
     {
       "label": "large",
-      "width": 1010,
+      "width": 1210,
       "height": 1000
     },
     {
