@@ -292,6 +292,7 @@ audio,img,video {
     width: 50%;
     padding: 0 0 0 24px;
     float: right;
+    shape-outside: polygon(-3px 68px, 30.62% 2.6%, 97.44% 2.02%, 98.9% 55.43%, 80.63% 96.22%, 66.9% 88.67%, 65.23% 80.14%, 13.87% 48.25%, 8.34% 51.18%, 5px 45.47%, 3.52% 40.5%);
   }
 }
 
@@ -312,7 +313,7 @@ audio,img,video {
   }
 }
 
-@media screen and (min-width: 1010px) {
+@media screen and (min-width: 1210px) {
   #about {
     display: grid;
     grid-template-columns: 1fr minmax(min-content, 350px);
