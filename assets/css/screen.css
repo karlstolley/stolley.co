@@ -224,6 +224,24 @@ audio,img,video {
   padding-left: 0;
 }
 
+/* Research Styles */
+/* TODO: Generalize as needed for elsewhere in the site */
+#research p + h2 {
+  padding-top: 1.28em; /* 36 / 28.125 = 1.28 */
+}
+#research b {
+  font-weight: bold;
+}
+#research ul,
+#research ol {
+  margin-left: 1.3333333333em; /* 24 / 18 = 1.3333333333 */
+}
+#research article ol {
+  list-style-type: decimal;
+}
+#research article ul {
+  list-style-type: square;
+}
 /* Preview/Thumbnail-Tile Styles */
 
 .previews {
@@ -316,6 +334,10 @@ audio,img,video {
   }
   #footer {
     padding-bottom: 7.5vw;
+  }
+  #research ul,
+  #research ol {
+    margin-left: 0;
   }
 }
 
