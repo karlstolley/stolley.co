@@ -1,4 +1,3 @@
-// sed -i '' "s/var VERSION/const VERSION = '`git rev-parse HEAD`'/" sw.js
 var VERSION;
 const version = VERSION ? VERSION : mockTenMinuteVersion();
 
