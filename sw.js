@@ -196,5 +196,3 @@ function mockTenMinuteVersion() {
     return num;
   }
 }
-
-console.log(version);
