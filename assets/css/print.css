@@ -2,15 +2,22 @@ html {
   font-size: 12pt;
   color: black;
 }
-* {
-  color: black;
-}
 #content h2 {
   color: black;
   background: none;
 }
+#vita #publications li li,
+#vita #talks li,
+#vita #courses li,
+#vita #service li li,
+#vita #honors {
+  page-break-inside: avoid;
+}
 #vita h3 b {
-  color: #EEEEEE;
+  color: #CCC;
+}
+#vita h3 b::before {
+  content: " ・ ";
 }
 #footer {
   display: none;

@@ -183,10 +183,21 @@ audio,img,video {
   letter-spacing: .025em;
   text-transform: lowercase;
   font-variant-caps: small-caps;
-  -moz-font-feature-settings: "smcp";
-  -webkit-font-feature-settings: "smcp";
-  font-feature-settings: "smcp";
+  -moz-font-feature-settings: "smcp","onum";
+  -webkit-font-feature-settings: "smcp","onum";
+  font-feature-settings: "smcp","onum";
   padding: 0.3333333333em 0 0.3333333333em 0; /* 6 / 18 = 0.3333333333 */
+}
+#vita #courses h3 {
+  text-transform: none;
+  font-variant-caps: normal;
+  -moz-font-feature-settings: "lnum";
+  -webkit-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
+  font-weight: bold;
+}
+#courses li > ul {
+  list-style-type: circle;
 }
 /*
   This is ugly and hacky; Safari on MacOS & iOS is shrinking "c2sc" text
@@ -218,6 +229,7 @@ audio,img,video {
 #media h2 + ul {
   padding-top: 0.6666666667em; /* 12 / 18 = 0.6666666667 */
 }
+#courses li,
 #digital li,
 #honors li {
   text-indent: 0;
