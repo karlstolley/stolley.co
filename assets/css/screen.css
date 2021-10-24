@@ -43,7 +43,7 @@ a {
   text-decoration-color: #896975;
 }
 
-cite,em,i {
+cite,em,i,.cite {
   font-style: italic;
 }
 
