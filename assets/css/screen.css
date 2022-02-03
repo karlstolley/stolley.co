@@ -305,19 +305,15 @@ audio,img,video {
   box-sizing: border-box;
 }
 
+.book-link {
+  display: block;
+  border: 1px solid #835f6b;
+}
+
 
 /* Media Queries */
 
 @media screen and (min-width: 435px) {
-  #book {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-column-gap: 1em;
-    column-gap: 1em;
-  }
-  #book h2 {
-    grid-column: 1 / 3;
-  }
   #about figure {
     box-sizing: border-box;
     width: 58%;
@@ -333,7 +329,17 @@ audio,img,video {
   }
 }
 
-
+@media screen and (min-width: 625px) {
+  #book {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 1em;
+    column-gap: 1em;
+  }
+  #book h2 {
+    grid-column: 1 / 3;
+  }
+}
 
 @media screen and (min-width: 700px) {
   #header,
