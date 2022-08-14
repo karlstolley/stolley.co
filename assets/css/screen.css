@@ -384,11 +384,7 @@ audio,img,video {
     text-align: left;
   }
 }
-@media screen and (min-width: 1510px) {
-  #about {
-    grid-template-columns: 1fr 1fr minmax(min-content, 350px);
-  }
-}
+
 /**
 * A quick baseline grid overlay using css+svg.
 * Inspired by [Basehold.it](https://basehold.it/).
